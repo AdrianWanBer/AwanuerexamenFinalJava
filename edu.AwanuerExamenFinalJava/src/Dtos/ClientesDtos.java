@@ -1,6 +1,10 @@
 package Dtos;
 
 import java.util.Date;
+/**
+ * Dtos relevante a los clientes
+ * awb
+ */
 
 public class ClientesDtos {
 	// Variables de los clientes
