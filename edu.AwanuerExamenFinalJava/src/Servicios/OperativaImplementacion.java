@@ -89,6 +89,8 @@ public class OperativaImplementacion implements OperativaInterfaz {
 				String fechaCita = sc.nextLine();
 				String nombreCompletoCliente = "";
 				nuevaCita.setDniCliente(dniDado);
+				
+				//Asignacion del nombre completo extraido de la lista de clientes
 				for(ClientesDtos clientes : listaClientes) {
 					if(clientes.getDni().equals(dniDado)) {
 						nombreCompletoCliente = clientes.getNombreCompleto();
